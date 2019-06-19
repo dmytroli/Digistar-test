@@ -13,6 +13,12 @@
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
+	
+	<!-- fanxyBox -->
+	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+
+
 	<link rel="stylesheet" href="css/style.css">
 
 	<link rel="preload" href="css/style.css" as="style">
@@ -152,7 +158,7 @@
 				</ul>
 			</div>
 		</section>
-		<section class="portfolio">
+		<section class="portfolio parallax-window" data-parallax="scroll" data-image-src="img/par.jpg" data-position="center -250">
 			<div class="container">
 				<div class="portfolio__title-wrapp">
 					<h2 class="portfolio__title">Our Portfolio Awesome</h2>
@@ -161,10 +167,9 @@
 				<ul class="list portfolio__list">
 					<li class="portfolio__item">
 						<div class="portfolio__image-wrapp">
-							<img src="img/child1.jpg" alt="camera" class="portfolio__image">
-							<p class="optic">
-								<img src="img/optic.png" alt="optic" class="optic__image">
-							Details</p>
+							<a class="fancybox" href="img/child1.jpg"><img src="img/child1.jpg" alt="camera" class="portfolio__image"></a>
+							
+							<a class="optic fancybox" href="img/child1.jpg"><img src="img/optic.png" alt="optic" class="optic__image"> Details</a>
 						</div>
 						<h4 class="portfolio__second-title">Lorem Ipsum Dolar Sit Amet</h4>
 						<p class="portfolio__text">
@@ -174,20 +179,18 @@
 					</li>
 					<li class="portfolio__item">
 						<div class="portfolio__image-wrapp">
-							<img src="img/child4.jpg" alt="camera" class="portfolio__image">
-							<p class="optic">
-								<img src="img/optic.png" alt="optic" class="optic__image">
-							Details</p>
+							<a class="fancybox" href="img/child4.jpg"><img src="img/child4.jpg" alt="camera" class="portfolio__image"></a>
+							
+							<a class="optic fancybox" href="img/child4.jpg"><img src="img/optic.png" alt="optic" class="optic__image"> Details</a>
 						</div>
 						<h4 class="portfolio__second-title">Lorem Ipsum</h4>
 						<p class="portfolio__text">Lorem ipsum dolor sit amet, consectetur adipiscinglit.</p>
 					</li>
 					<li class="portfolio__item">
 						<div class="portfolio__image-wrapp">
-							<img src="img/child3.jpg" alt="camera" class="portfolio__image">
-							<p class="optic">
-								<img src="img/optic.png" alt="optic" class="optic__image">
-							Details</p>
+							<a class="fancybox" href="img/child3.jpg"><img src="img/child3.jpg" alt="camera" class="portfolio__image"></a>
+							
+							<a class="optic fancybox" href="img/child3.jpg"><img src="img/optic.png" alt="optic" class="optic__image"> Details</a>
 						</div>
 						<h4 class="portfolio__second-title">Ipsum Amet Dolar Sit </h4>
 						<p class="portfolio__text">
@@ -198,12 +201,143 @@
 				</ul>
 			</div>
 		</section>
-		
+		<section class="offer">
+			<div class="container">
+				<h2 class="offer__title">what we offer</h2>
+				<p class="offer__title-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna. 
+				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+				<ul class="list offer__list">
+				<li class="offer__item">
+					<h4 class="offer__item-title">Web Design</h4>
+					<p class="offer__item-text">
+						Lorem ipsum dolor sit amet, consect 
+						etur adipiscing elit. Ut ultricies sagit
+						tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus orci luctuset.
+						<a href="#" class="offer__link">Details</a>
+					</p>
+				</li>
+				<li class="offer__item">
+					<h4 class="offer__item-title">Search Optimization</h4>
+					<p class="offer__item-text">
+						Lorem ipsum dolor sit amet, consect 
+						etur adipiscing elit. Ut ultricies sagit
+						tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus						<a href="#" class="offer__link">Details...</a>
+					</p>
+				</li>
+				<li class="offer__item">
+					<h4 class="offer__item-title">Online Shop</h4>
+					<p class="offer__item-text">
+						Lorem ipsum dolor sit amet, consect 
+						etur adipiscing elit. Ut ultricies sagit
+						tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus orci luctuset.
+						<a href="#" class="offer__link">Details</a>
+					</p>
+				</li>
+				<li class="offer__item">
+					<h4 class="offer__item-title">Social Media</h4>
+					<p class="offer__item-text">
+						Lorem ipsum dolor sit amet, consect 
+						etur adipiscing elit. Ut ultricies sagit
+						tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus orci luc
+						<a href="#" class="offer__link">>>></a>
+					</p>
+				</li>
+			</ul>
+			</div>
+		</section>
+		<section class="testimonials">
+			<div class="container">
+				<h2 class="testimonials__title">testimonials</h2>
+				<p class="testimonials__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris necip 
+				at lacus commodo suscipit praesent sollicitudin enim vel mirhon”
+				</p>
+				<div class="testimonials__wrapp">
+					<h5 class="testimonials__secondtitle">
+						Jon Doe / CEO of LoremIpsum
+					</h5>
+					<ul class="list testimonials__list">
+						<li class="testimonials__item"><img src="img/woman.png" alt="woman.png"></li>
+						<li class="testimonials__item"><img src="img/man.png" alt="woman.png"></li>
+						<li class="testimonials__item"><img src="img/woman.png" alt="woman.png"></li>
+					</ul>
+				</div>
+			</div>
+		</section>
 	</main>
 
-	<footer>
+	<footer class="main-footer">
 		<div class="container">
-			
+			<h2 class="visually-hidden">Footer</h2>
+			<ul class="list main-footer__list">
+				<li class="main-footer__item">
+					<ul class="list twitter">
+						<h3 class="twitter__title">Twitter feeds</h3>
+						<li class="twitter__item">
+							<p class="twitter__text">Check out this great theme item</p>
+							<a href="#" class="twitter__link">http://tadjalskfj.com</a>
+							<p class="twitter__text">2 weeks ago</p>
+						</li>
+						<li class="twitter__item">
+							<p class="twitter__text">Check out this great theme item for</p>
+							<a href="#" class="twitter__link">http://tadjalskfj.com</a>
+							<p class="twitter__text">2 weeks ago</p>
+						</li>
+						<li class="twitter__item">
+							<p class="twitter__text">Check out this great theme item for you</p>
+							<a href="#" class="twitter__link">http://tadjalskfj.com</a>
+							<p class="twitter__text">2 weeks ago</p>
+						</li>
+					</ul>
+				</li>
+				<li class="main-footer__item newsletter">
+					<h3 class="newsletter__title">newsletter</h3>
+					<p class="newsletter__text">Lorem ipsum dolor sit amet, consectetur adip
+					iscing elit. Ut ultricies sagittis magna a comm. 
+					Ut eget eros mauris, ut cursus urna.</p>
+					<form action="#" class="newsletter__form">
+						<label class="label__formlabel">Your Email Address</label>
+						<input type="text" name="text" id="">
+						<input type="button" value="Sign Up">
+					</form>
+				</li>
+				<li class="main-footer__item">
+					<ul class="list twitter project">
+						<h3 class="twitter__title">recent projects</h3>
+						<li class="twitter__item project__item">
+							<p class="twitter__text">Sketchy Business Card</p>
+							<a href="#" class="twitter__link">http://tadjalskfj.com</a>
+							<p class="twitter__text">2 weeks ago</p>
+						</li>
+						<li class="twitter__item project__item">
+							<p class="twitter__text">Message Boards in Nature</p>
+							<a href="#" class="twitter__link">http://tadjalskfj.com</a>
+							<p class="twitter__text">2 weeks ago</p>
+						</li>
+						<li class="twitter__item project__item">
+							<p class="twitter__text">Website Design Kit</p>
+							<a href="#" class="twitter__link">http://tadjalskfj.com</a>
+							<p class="twitter__text">2 weeks ago</p>
+						</li>
+					</ul>
+				</li>
+				<li class="main-footer__item contact">
+					<h3 class="contact__title">contact</h3>
+					<ul class="list contact__list">
+						<li class="contact__item">
+							<p class="contact__text">1 - 000 - 000-0000</p>
+							<p class="contact__text">1 - 000 - 000-0000</p>
+						</li>
+						<li class="contact__item">
+							<p class="contact__text">1 - 000 - 000-0000</p>
+							<p class="contact__text">1 - 000 - 000-0000</p>
+						</li>
+						<li class="contact__item">
+							<p class="contact__text">abcdefg@hijs.dfh</p>
+							<p class="contact__text">fjashfaf@jkfs.ckd</p>
+						</li>
+					</ul>
+				</li>
+			</ul>
 		</div>
 	</footer>
 	
@@ -211,7 +345,21 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-	<script src="js/bootstrap.min.js"></script>
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	
 
 	<script src="js/jquery.bxslider.js"></script>
 	<script src="js/parallax.js"></script>
